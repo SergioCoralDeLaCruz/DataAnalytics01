@@ -1,10 +1,6 @@
 import pandas as pd
-<<<<<<< HEAD
 import tratamientoDx as trat
-=======
-from tratamientoDx import drop_nulls
-from exploracionDx import plot_correlacion
->>>>>>> 815b367b88094887fd15ae324316e73f97aca0e3
+import exploracionDx as explo
 
 def main():
     data = {'A': [1, 2, None, 4], 'B': [5, None, -7, 8], 'C': [9, 10, 11, 12]}
@@ -19,7 +15,7 @@ def main():
     print(df_clean)
     
     print("\nVisualizar correlacion:")
-    plot_correlacion(df_clean)
+    explo.plot_correlacion(df_clean)
     
 if __name__ == "__main__":
     main()
