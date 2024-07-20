@@ -12,6 +12,9 @@ def main():
     
     print("\nDataFrame limpio:")
     print(df_clean)
-
+    
+    print("\nVisualizar correlacion:")
+    plot_correlacion(df_clean)
+    
 if __name__ == "__main__":
     main()
