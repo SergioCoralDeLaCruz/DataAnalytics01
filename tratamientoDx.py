@@ -1,6 +1,7 @@
 import pandas as pd
 
-def drop_nulls(df):
-    df_clean = df.dropna()
-    
-    return df_clean
+def remove_columns_with_nulls(df):
+    return df.dropna(axis=1)
+
+def remove_rows_with_nulls(df):
+    return df.dropna(axis=0)
