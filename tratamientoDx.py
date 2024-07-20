@@ -1,6 +1,6 @@
 import pandas as pd
 
-def tratamientoDx(df):
+def drop_nulls(df):
     df_clean = df.dropna()
     
     return df_clean
