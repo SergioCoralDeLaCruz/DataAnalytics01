@@ -14,3 +14,8 @@ def plot_correlacion(df):
     sns.heatmap(matriz_correlacion, annot=True, cmap='coolwarm', fmt='.2f', linewidths=.5)
     plt.title('Matriz de Correlación de Pearson')
     plt.show()
+
+def plot_pairplot(df, hue=None):
+   
+    sns.pairplot(df, hue=hue)
+    plt.show()
