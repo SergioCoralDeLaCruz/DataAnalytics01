@@ -1,0 +1,18 @@
+edf2985 (HEAD -> main, origin/tratamiento, origin/main, origin/exploracion, origin/HEAD, tratamiento) se resuelven conflictos
+44e1216 Pairplots
+b2a4c6c agregando exploracion
+04b046f solve merge
+d013ffc se corrige y agrega la otra funcion para eliminar nulos
+815b367 Modificacion del archivo main para visualizar correlacion
+3ecd43a resolver conflictos
+8bc9e49 Merge remote-tracking branch 'origin/exploracion'
+25bc62d Correlación entre pares de variables
+951a810 se cambio main por nombre de funcion correcto
+82be04d cambio de nombre de definicion
+d576648 Prueba
+dce63ca Primer resolve de merge conflict
+42723fe creacion tratamiento
+91fcbc8 text test
+67c3373 Create main.py
+1eade80 (origin/list) Creando archivo main
+35a65e1 Initial commit
